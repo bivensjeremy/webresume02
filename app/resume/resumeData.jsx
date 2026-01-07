@@ -1,26 +1,26 @@
 export const resumeData = [
     {
         id: 1,
-        year: '2025-Current',
-        jobTitle: 'Developer & Owner - Bivens Blueprint',
-        desc: 'Developer of a small business networking app designed to help businesses connect and share referrals',
+        year: '2025-',
+        jobTitle: 'Founder & Lead Developer – Bivens Blueprint',
+        desc: 'Building a referral app designed to help people find trusted recommendations quickly and confidently.',
     },
     {
         id: 2,
-        year: '2021-Current',
-        jobTitle: 'Owner - Blueprint Web Dev',
-        desc: 'Web development agency specializing in websites and performance maximization',
+        year: '2021-',
+        jobTitle: 'Founder & Lead Developer – Blueprint Web Dev',
+        desc: 'Running a web development agency focused on creating reliable, high‑performing websites that genuinely support clients’ goals.',
     },
     {
         id: 3,
         year: '2018-2025',
         jobTitle: 'Recruiter',
-        desc: 'Healthcare recruitment for hospitals. Including RNs, RRTs, Radiology and non-clinical positions.',
+        desc: 'Spent time recruiting at hospitals and managing hiring events. I got a first-hand point of view of bridging the gap between job seekers and hospital needs.',
     },
     {
         id: 4,
         year: '2013-2018',
         jobTitle: 'Human Resources Professional',
-        desc: 'Managed and administrated several areas of human resources, including benefits, compensation, and retirement benefits.',
+        desc: 'Handled key areas of HR with care and consistency, including benefits, compensation, and retirement programs.',
     },
 ]

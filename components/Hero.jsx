@@ -6,15 +6,16 @@ import NextImage from "next/image";
 import { siteConfig } from "@/config/site";
 
 const Hero = () => {
-    const bgColors = ['bg-yellow-500', 'bg-red-500', 'bg-cyan-500'];
-
+    // const bgColors = ['bg-yellow-500', 'bg-red-500', 'bg-cyan-500'];
+    const bgColors = ['bg-amber-300', 'bg-rose-300', 'bg-sky-300'];
     return (
             <div className="flex lg:flex-row flex-col-reverse min-h-screen m-auto gap-6 max-w-5xl">
-                <div className="h-56 w-56 md:h-96 md:w-96 xl:h-[32rem] xl:w-[32rem] bg-zinc-500 rounded-full relative overflow-hidden m-auto flex items-center justify-center">
-                    <Image 
-                        src="/pixar_image-2.png"
+                <div className="h-56 w-56 md:h-96 md:w-96 xl:h-[32rem] xl:w-[32rem] bg-[rgb(236,234,230)] rounded-full relative overflow-hidden m-auto flex items-center justify-center">
+                    <NextImage 
+                        src="/profile.jpeg"
                         alt="Worker image"
-                        className="object-contain"
+                        className="bottom-0 object-cover"
+                        fill
                     />
                 </div>
 
@@ -37,7 +38,7 @@ const Hero = () => {
                                 key={label}
                                 href={href}
                                 color="foreground"
-                                className={`text-md sm:text-xl font-bold border border-black rounded-full m-auto w-20 h-20 sm:w-32 sm:h-32 hover:bg-white flex items-center justify-center text-center ${bgColors[index % bgColors.length]}`}
+                                className={`text-md sm:text-xl font-bold border border-black rounded-full m-auto w-20 h-20 sm:w-32 sm:h-32 hover:text-gray-200 flex items-center justify-center text-center text-gray-900 ${bgColors[index % bgColors.length]}`}
                             >
                             {label}
                             </Link>

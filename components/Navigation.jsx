@@ -13,7 +13,7 @@ const Navigation = () => {
         <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} position="static" maxWidth="full">
             <NavbarBrand>
                 <Link href="/" color="foreground" onClick={() => setIsMenuOpen(false)}>
-                <Avatar name="Jeremy" src="/pixar_image-2.png" />
+                <Avatar name="Jeremy" src="/profile.jpeg" />
                 <div className="pl-1">
                     <p className="font-bold text-inherit text-xl">Jeremy Bivens</p>
                     <p className="text-md">Web Developer</p>
