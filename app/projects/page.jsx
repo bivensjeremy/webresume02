@@ -16,7 +16,7 @@ const page = () => {
                 {projectData.reverse().map((project, idx) => (
                     <Link color="foreground" href={project.link} key={idx} isExternal isBlock className="flex flex-col sm:flex-row gap-8 py-6">
                         <div className="w-full sm:w-1/2">
-                            <p className="font-bold text-xl pb-8">{project.title}</p>
+                            <p className="font-bold text-xl pb-4">{project.title}</p>
                             <p className="max-w-md">{project.description}</p>
                         </div>
 

@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="pt-8">
             <Divider />
 
-            <div className="flex flex-col sm:flex-row justify-between pt-12 pb-20 sm:text-center gap-6">
+            <div className="flex flex-col sm:flex-row justify-between pt-12 pb-5 sm:text-center gap-6">
                 <div>
                     <p className="font-bold">
                         Phone

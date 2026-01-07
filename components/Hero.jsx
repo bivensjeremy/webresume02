@@ -9,7 +9,7 @@ const Hero = () => {
     // const bgColors = ['bg-yellow-500', 'bg-red-500', 'bg-cyan-500'];
     const bgColors = ['bg-amber-300', 'bg-rose-300', 'bg-sky-300'];
     return (
-            <div className="flex lg:flex-row flex-col-reverse min-h-screen m-auto gap-6 max-w-5xl">
+            <div className="flex lg:flex-row flex-col-reverse flex-1 m-auto gap-6 max-w-5xl">
                 <div className="h-56 w-56 md:h-96 md:w-96 xl:h-[32rem] xl:w-[32rem] bg-[rgb(236,234,230)] rounded-full relative overflow-hidden m-auto flex items-center justify-center">
                     <NextImage 
                         src="/profile.jpeg"
@@ -29,7 +29,7 @@ const Hero = () => {
                     </h1>
 
                     <p className='pb-8 max-w-sm text-justify'>
-                        Bivens Blueprint offers several template websites to get your business up and running fast. These sites are perfect for startups and small businesses who need a quick, polished web presence. Click the link below to get started.
+                        I created Blueprint Web Dev to help small businesses stand out with modern, high-quality websites. Too often, business sites are outdated and underperform. My goal is to change that by leveraging the latest technologies to build fast, reliable websites that not only look great but also deliver measurable results.
                     </p>
 
                     <div className="flex flex-row gap-2 sm:gap-6">
@@ -38,7 +38,7 @@ const Hero = () => {
                                 key={label}
                                 href={href}
                                 color="foreground"
-                                className={`text-md sm:text-xl font-bold border border-black rounded-full m-auto w-20 h-20 sm:w-32 sm:h-32 hover:text-gray-200 flex items-center justify-center text-center text-gray-900 ${bgColors[index % bgColors.length]}`}
+                                className={`text-md sm:text-xl font-bold border border-black rounded-full m-auto w-20 h-20 sm:w-32 sm:h-32 hover:text-gray-200 hover:border-gray-200 flex items-center justify-center text-center text-gray-900 ${bgColors[index % bgColors.length]}`}
                             >
                             {label}
                             </Link>
