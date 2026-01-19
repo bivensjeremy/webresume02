@@ -1,5 +1,5 @@
-
 import { resumeData } from './resumeData';
+import { ResumeLottie } from '../../components/ResumeLottie';
 
 const page = () => {
     return (
@@ -13,6 +13,10 @@ const page = () => {
                     <p className="text-xl font-bold">
                         Work Experience
                     </p>
+                </div>
+
+                <div>
+                    <ResumeLottie />
                 </div>
             </div>
             

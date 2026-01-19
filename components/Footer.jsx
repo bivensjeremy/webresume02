@@ -13,18 +13,18 @@ const Footer = () => {
                     <p className="font-bold">
                         Phone
                     </p>
-                    <p className="text-sm">
+                    <Link href="tel:4782808388" color="foreground" className="text-sm">
                         {siteConfig.footer.phone}
-                    </p>
+                    </Link>
                 </div>
 
                 <div>
                     <p className="font-bold">
                         Email
                     </p>
-                    <p className="text-sm">
+                    <Link href='mailto:admin@bivensblueprint.com' color="foreground" className="text-sm">
                         {siteConfig.footer.email}
-                    </p>
+                    </Link>
                 </div>
 
                 <div>
@@ -34,26 +34,26 @@ const Footer = () => {
 
                     <div className="gap-4 flex">
                         <Link href={siteConfig.links.facebook} color="foreground">
-                            <FaFacebook className="w-5 h-auto" color="bg-red-500" />
+                            <FaFacebook className="w-5 h-auto hover:text-[#1877F2]" color="bg-red-500" />
                         </Link>
 
                         <Link href={siteConfig.links.instagram} color="foreground">
-                            <FaInstagram className="w-5 h-auto" />
+                            <FaInstagram className="w-5 h-auto hover:text-[#DD2A7B]" />
                         </Link>
 
                         <Link href={siteConfig.links.website} color="foreground">
-                            <FaShop className="w-5 h-auto" />
+                            <FaShop className="w-5 h-auto hover:text-[#1E3A8A]" />
                         </Link>
 
                         <Link href={siteConfig.links.business} color="foreground">
-                            <FaGlobe className="w-5 h-auto" />
+                            <FaGlobe className="w-5 h-auto hover:text-[#cc0000]" />
                         </Link>
                     </div>
                 </div>
 
                 <div className="my-auto">
                     <p className="text-sm">
-                        &copy; {new Date().getFullYear()} Bivens Blueprint, LLC
+                        &copy; {new Date().getFullYear()} Blueprint Web Dev
                     </p>
                     
                 </div>
